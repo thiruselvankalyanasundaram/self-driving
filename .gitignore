@@ -1,0 +1,64 @@
+# Cloned upstream repos (too large; cloned separately by setup script)
+UniAD/
+Bench2Drive/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+venv/
+env/
+.env/
+.venv/
+pip-log.txt
+
+# PyTorch / ML checkpoints (too large for git)
+*.pth
+*.pt
+*.ckpt
+*.pkl
+*.h5
+*.hdf5
+
+# CARLA simulator binary (multi-GB, use download_carla.py instead)
+carla_simulator/
+
+# Video/media files
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# UniAD data and cache
+UniAD/data/
+UniAD/work_dirs/
+UniAD/*.egg-info/
+
+# Bench2Drive data
+Bench2Drive/data/
+
+# Logs
+*.log
+logs/
+runs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS temp
+Thumbs.db
+ehthumbs.db
